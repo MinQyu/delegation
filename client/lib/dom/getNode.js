@@ -1,3 +1,12 @@
+
+
+/**
+ * 
+ * @param {string | Element} node 
+ * @param {Document | string} context 
+ * @returns {HTMLElement}
+ */
+
 function getNode(node,context = document){
 
   // if(isString(context)) context = document.querySelector(context);

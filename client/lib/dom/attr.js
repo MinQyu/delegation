@@ -19,9 +19,7 @@ function setAttr (node,prop,value){
   
   if(isString(node)) node = getNode(node);
 
-  if(!isString(prop)){
-    typeError('setAttr 함수의 두 번째 인수는')
-  }
+
 
   if(value === ''){
     node.removeAttribute(prop);
